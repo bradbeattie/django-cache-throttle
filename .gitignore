@@ -1,1 +1,3 @@
 *.pyc
+dist/
+django_cache_throttle.egg-info/
