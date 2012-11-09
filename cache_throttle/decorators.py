@@ -24,6 +24,7 @@ def throttle(
         @wraps(fn)
         def _wrapped(request, *args, **kwargs):
             request.throttled = False
+            request.stamina = None
             try:
                 interpreted_keys = []
                 for key in keys:
