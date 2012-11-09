@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-cache-throttle',
-    version='2012.11.09.1',
+    version='2012.11.09.2',
     description='Cache-based rate-limiting for Django.',
     long_description='Uses Django\'s caching framework to provide a view decorator that rate limits through a regenerative stamina indicator.',
     author='Brad Beattie',

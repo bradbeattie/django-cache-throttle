@@ -18,7 +18,7 @@ def throttle(
     points_per_minute=20,
     block=True,
     keys=("META:REMOTE_ADDR",),
-    methods=("POST", "GET")
+    methods=("POST",)
 ):
     def decorator(fn):
         @wraps(fn)
